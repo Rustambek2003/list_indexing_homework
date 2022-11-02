@@ -6,7 +6,7 @@ def main(list1):
     Returns:
         list: return answer
     """
-    i = 1
+    i = 0
     while i<len(list1):
         if list1[i] == 1:
             list1[i] = True
