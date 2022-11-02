@@ -8,9 +8,11 @@ def main(list1):
     """
     i = 0
     a = list1[0]
-    if a == list1[1] and a == list1[2] and a == list1[3] and a == list1[4]:
-        return True
-    else:
-        return False
-
+    while i < len(list1):
+        if a != list1[i]:
+            return False
+        else:
+            i += 1
+    return True
+            
 print(main([0, 0, 0, 0, 0]))
