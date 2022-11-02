@@ -6,9 +6,9 @@ def main(list1):
     Returns:
         list: return answer
     """
-    i = 0
+    i = 0 
     while i < len(list1):
         if list1[i] == 0:
             list1[i] = False
-            i += 1
+        i += 1
     return list1
