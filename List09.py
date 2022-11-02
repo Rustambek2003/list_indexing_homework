@@ -6,4 +6,11 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i = 0
+    a = list1[0]
+    if a == list1[1] and a == list1[2] and a == list1[3] and a == list1[4]:
+        return True
+    else:
+        return False
+
+print(main([0, 0, 0, 0, 0]))
